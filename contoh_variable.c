@@ -10,7 +10,7 @@ int main(){
     berat = 54;
 
     // mencetak isi variabel ke layar
-    printf("Berat badan saya adalah %ikg dan tinggi %icm", berat, tinggi);ode
+    printf("Berat badan saya adalah %ikg dan tinggi %icm", berat, tinggi);
 
     return 0;
 }
