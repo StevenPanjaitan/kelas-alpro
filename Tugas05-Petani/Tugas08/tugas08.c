@@ -37,13 +37,13 @@ int main(){
     nilaiAkhir = calcNIlai(nilaiTugas,nilaiQuiz,nilaiUTS,nilaiUAS); 
     mutuHuruf = calcNIlai(nilaiTugas,nilaiQuiz,nilaiUTS,nilaiUAS);
 
-    if (mutuHuruf > 90 && mutuHuruf <= 100) mutuHuruf = 0;
-    if (mutuHuruf > 80 && mutuHuruf <= 90) mutuHuruf = 1;
-    if (mutuHuruf > 70 && mutuHuruf <= 80) mutuHuruf = 2;
-    if (mutuHuruf > 60 && mutuHuruf <= 70) mutuHuruf = 3;
-    if (mutuHuruf > 50 && mutuHuruf <= 60) mutuHuruf = 4;
-    if (mutuHuruf >= 45 && mutuHuruf <= 50) mutuHuruf = 5;
-    if (mutuHuruf >= 0 && mutuHuruf < 45) mutuHuruf = 6;
+    if (mutuHuruf >=90 && mutuHuruf <=100) mutuHuruf = 0;
+    if (mutuHuruf >=80 && mutuHuruf <=90) mutuHuruf = 1;
+    if (mutuHuruf >=70 && mutuHuruf <=80) mutuHuruf = 2;
+    if (mutuHuruf >=60 && mutuHuruf <=70) mutuHuruf = 3;
+    if (mutuHuruf >=50 && mutuHuruf <=60) mutuHuruf = 4;
+    if (mutuHuruf >=45 && mutuHuruf <=50) mutuHuruf = 5;
+    if (mutuHuruf >=0 && mutuHuruf <=45) mutuHuruf = 6;
 
     displayAkhir();
 }
